@@ -1,0 +1,14 @@
+chemistry {display:table}
+periodic_row {display: table-row; width: 3200 pt}
+element {display: table-cell;  background-color:yellow; 
+         font-weight: bold; color: blue; border: medium solid blue; 
+         margin-top:5; margin-right:5; width:90pt; height:90pt; padding:5pt}
+atomic_no{display: block; font-size: 18pt; color: red;
+          position:relative; left:25%}
+symbol{display: block; font-size: 16pt; position:relative; left:25%}
+name{display: block;  font-size: 12pt; font-weight: bold}
+no_of_neutrons{display: none}
+molar_mass{display: block; color: green; font-size: 10pt}
+ionization_energy{display: block; color: green; font-size: 10pt}
+value{display: inline}
+units{display: inline}
